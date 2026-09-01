@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Landing Page</title>
+
+    <title>Nexora Landing Page</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
@@ -14,7 +15,7 @@
   <body>
     <header class="max-w-7xl mx-auto">
       <nav>
-        <div class="flex items-center justify-between gap-3 py-6 lg:px-12 md:px-6">
+        <div class="flex items-center justify-between gap-3 py-6 md:px-6 px-3 cursor-pointer">
           <img src="./assets/Nexora Logo.png" alt="logo" />
           <h2 class="font-bold text-xl">Nexora</h2>
         </div>
@@ -26,11 +27,47 @@
           <li>Pricing</li>
           <li>Contact</li>
         </ul>
-        <div class="flex items-center justify-between gap-6 py-6 lg:px-12 md:px-6">
-          <button class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold">Get Started</button>
-          <i class="fa-solid fa-circle-user text-3xl"></i>
+        <div class="flex items-center justify-between gap-6 py-6 md:px-6 px-3">
+          <button
+            class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer"
+          >
+            Get Started
+          </button>
+          <i class="fa-solid fa-circle-user text-3xl cursor-pointer"></i>
         </div>
       </nav>
+      <section
+        id="hero-section"
+        class="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#f8f9ff] py-12 lg:py-24 md:px-6 px-3"
+      >
+        <div class="flex flex-col justify-center py-16 lg:flex-1/2">
+          <small class="bg-[#EFF4FF] text-[#0B1C30] py-1 px-3 font-semibold"
+            >BEST DIGITAL AGENCY</small
+          >
+          <h2 class="text-[#0B1C30] font-bold text-3xl md:text-7xl my-3 lg:my-6">
+            Build digital experiences people remember
+          </h2>
+          <p class="text-[#45464D] mb-6">
+            We help startups and brands create beautiful, functional and
+            impactful digital products.
+          </p>
+          <div class="flex items-center gap-4">
+            <button
+              class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer"
+            >
+              Get Started
+            </button>
+            <button
+              class="text-[#0B1C30] py-2.5 px-6 rounded-xl text-sm font-semibold border border-[#76777D] cursor-pointer"
+            >
+              View Our Work
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/hero.png" alt="hero-image" />
+        </div>
+      </section>
     </header>
     <script src="./script.js"></script>
   </body>
