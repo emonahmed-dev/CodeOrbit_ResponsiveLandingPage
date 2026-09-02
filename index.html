@@ -1,74 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Nexora Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/Nexora Logo.png" type="image/x-icon" />
+  <title>Nexora Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header class="max-w-7xl mx-auto">
-      <nav>
-        <div class="flex items-center justify-between gap-3 py-6 md:px-6 px-3 cursor-pointer">
-          <img src="./assets/Nexora Logo.png" alt="logo" />
-          <h2 class="font-bold text-xl">Nexora</h2>
-        </div>
-        <ul class="flex items-center justify-center gap-8">
-          <li>Home</li>
-          <li>Services</li>
-          <li>Work</li>
-          <li>About</li>
-          <li>Pricing</li>
-          <li>Contact</li>
-        </ul>
-        <div class="flex items-center justify-between gap-6 py-6 md:px-6 px-3">
-          <button
-            class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer"
-          >
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="max-w-7xl mx-auto">
+    <nav>
+      <div class="flex items-center justify-between gap-3 py-6 md:px-6 px-3 cursor-pointer">
+        <img src="./assets/Nexora Logo.png" alt="logo" />
+        <h2 class="font-bold text-xl">Nexora</h2>
+      </div>
+      <ul class="flex items-center justify-center gap-8">
+        <li>Home</li>
+        <li>Services</li>
+        <li>Work</li>
+        <li>About</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+      </ul>
+      <div class="flex items-center justify-between gap-6 py-6 md:px-6 px-3">
+        <button class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer">
+          Get Started
+        </button>
+        <i class="fa-solid fa-circle-user text-3xl cursor-pointer"></i>
+      </div>
+    </nav>
+    <section id="hero-section"
+      class="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#f8f9ff] py-12 lg:py-24 md:px-6 px-3">
+      <div class="flex flex-col justify-center py-16 lg:flex-1/2">
+        <small class="bg-[#EFF4FF] text-[#0B1C30] py-1 px-3 font-semibold w-max">BEST DIGITAL AGENCY</small>
+        <h2 class="text-[#0B1C30] font-bold text-3xl md:text-7xl my-3 lg:my-6">
+          Build digital experiences people remember
+        </h2>
+        <p class="text-[#45464D] mb-6">
+          We help startups and brands create beautiful, functional and
+          impactful digital products.
+        </p>
+        <div class="flex items-center gap-4">
+          <button class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer">
             Get Started
           </button>
-          <i class="fa-solid fa-circle-user text-3xl cursor-pointer"></i>
+          <button
+            class="text-[#0B1C30] py-2.5 px-6 rounded-xl text-sm font-semibold border border-[#76777D] cursor-pointer">
+            View Our Work
+          </button>
         </div>
-      </nav>
-      <section
-        id="hero-section"
-        class="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#f8f9ff] py-12 lg:py-24 md:px-6 px-3"
-      >
-        <div class="flex flex-col justify-center py-16 lg:flex-1/2">
-          <small class="bg-[#EFF4FF] text-[#0B1C30] py-1 px-3 font-semibold"
-            >BEST DIGITAL AGENCY</small
-          >
-          <h2 class="text-[#0B1C30] font-bold text-3xl md:text-7xl my-3 lg:my-6">
-            Build digital experiences people remember
-          </h2>
-          <p class="text-[#45464D] mb-6">
-            We help startups and brands create beautiful, functional and
-            impactful digital products.
-          </p>
-          <div class="flex items-center gap-4">
-            <button
-              class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer"
-            >
-              Get Started
-            </button>
-            <button
-              class="text-[#0B1C30] py-2.5 px-6 rounded-xl text-sm font-semibold border border-[#76777D] cursor-pointer"
-            >
-              View Our Work
-            </button>
-          </div>
+      </div>
+      <div>
+        <img src="./assets/hero.png" alt="hero-image" />
+      </div>
+    </section>
+  </header>
+
+  <main class="max-w-7xl mx-auto">
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-4 py-16 px-3">
+      <div class="flex flex-col items-center justify-between gap-3 py-4">
+        <p class="text-center"><i class="fa-solid fa-circle-check text-[#45464d] fa-2xl"></i></p>
+        <h3 class="text-[#0B1C30] font-bold text-3xl">250+</h3>
+        <p class="text-[#45464d] text-sm">Projects Completed</p>
+      </div>
+      <div class="flex flex-col items-center justify-between gap-3 py-4">
+        <p class="text-center"><i class="fa-solid fa-users-line text-[#45464d] fa-2xl"></i></i></p>
+        <h3 class="text-[#0B1C30] font-bold text-3xl">120+</h3>
+        <p class="text-[#45464d] text-sm">Happy Clients</p>
+      </div>
+      <div class="flex flex-col items-center justify-between gap-3 py-4">
+        <p class="text-center"><i class="fa-solid fa-award text-[#45464d] fa-2xl"></i></p>
+        <h3 class="text-[#0B1C30] font-bold text-3xl">10+</h3>
+        <p class="text-[#45464d] text-sm">Years Experience</p>
+      </div>
+      <div class="flex flex-col items-center justify-between gap-3 py-4">
+        <p class="text-center"><i class="fa-solid fa-headset text-[#45464d] fa-2xl"></i></p>
+        <h3 class="text-[#0B1C30] font-bold text-3xl">24/7</h3>
+        <p class="text-[#45464d] text-sm">Support Available</p>
+      </div>
+    </section>
+
+    <section class="bg-[#f8f9ff] py-32 px-3">
+      <h2 class="text-[#0B1C30] font-bold text-5xl my-4 text-center">Services that drive results</h2>
+      <p class="text-[#45464d] text-sm text-center">We combine creativity with technology to deliver solutions that help
+        your
+        business grow.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 mt-16">
+        <div class="bg-white p-8 flex flex-col gap-4 ">
+          <div class="bg-[#f8f9ff] p-4 w-max rounded-lg"><i class="fa-solid fa-code fa-xl"></i></div>
+          <h3 class="font-bold text-2xl">Web Development</h3>
+          <p class="text-sm text-[#45464d]">We build fast, responsive and scalable
+            websites tailored to your business
+            needs.</p>
+          <p class="text-sm font-semibold text-[#0B1C30] cursor-pointer">Learn more <i
+              class="fa-solid fa-arrow-right fa-xs"></i> </p>
         </div>
-        <div>
-          <img src="./assets/hero.png" alt="hero-image" />
+        <div class="bg-white p-8 flex flex-col gap-4 ">
+          <div class="bg-[#f8f9ff] p-4 w-max rounded-lg"><i class="fa-solid fa-palette fa-xl"></i></div>
+          <h3 class="font-bold text-2xl">UI/UX Design</h3>
+          <p class="text-sm text-[#45464d]">We design beautiful and intuitive
+            interfaces that provide the best user
+            experience.</p>
+          <p class="text-sm font-semibold text-[#0B1C30] cursor-pointer">Learn more <i
+              class="fa-solid fa-arrow-right fa-xs"></i> </p>
         </div>
-      </section>
-    </header>
-    <script src="./script.js"></script>
-  </body>
+        <div class="bg-white p-8 flex flex-col gap-4 ">
+          <div class="bg-[#f8f9ff] p-4 w-max rounded-lg"><i class="fa-solid fa-paintbrush fa-xl"></i></div>
+          <h3 class="font-bold text-2xl">Branding</h3>
+          <p class="text-sm text-[#45464d]">We create strong brand identities that
+            make your business stand out.</p>
+          <p class="text-sm font-semibold text-[#0B1C30] cursor-pointer">Learn more <i
+              class="fa-solid fa-arrow-right fa-xs"></i> </p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#EFF4FF] py-28 flex gap-16 items-start flex-col lg:flex-row px-3">
+      <div class="">
+        <img src="./assets/Container.png" alt="container image">
+      </div>
+      <div class="">
+        <p class="text-[#0B1C30] bg-white w-max px-2 text-xs">WHY CHOOSE US</p>
+        <h2 class="my-6 text-[#0B1C30] font-bold text-5xl">We're more than just a digital agency</h2>
+        <p class="text-sm text-[#45464d] mb-6">We partner with you to understand your goals and deliver
+          solutions that make a real impact.</p>
+        <ul>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-[#45464d]"></i> Experienced and
+            passionate team</li>
+          <li class="flex items-center gap-2 my-4"><i class="fa-solid fa-circle-check text-[#45464d]"></i>Customer-first
+            approach</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-[#45464d]"></i> Delivering quality
+            on time</li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
 </html>
