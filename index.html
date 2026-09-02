@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
 
   <link rel="stylesheet" href="./style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet" />
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <img src="./assets/Nexora Logo.png" alt="logo" />
         <h2 class="font-bold text-xl">Nexora</h2>
       </div>
-      <ul class="flex items-center justify-center gap-8">
+      <ul class="hidden lg:flex items-center justify-center gap-8 deks">
         <li>Home</li>
         <li>Services</li>
         <li>Work</li>
@@ -31,12 +31,15 @@
         <li>Pricing</li>
         <li>Contact</li>
       </ul>
-      <div class="flex items-center justify-between gap-6 py-6 md:px-6 px-3">
+      <div class="hidden lg:flex items-center justify-between gap-6 py-6 md:px-6 px-3 deks">
         <button class="bg-black text-white py-2.5 px-6 rounded-xl text-sm font-semibold cursor-pointer">
           Get Started
         </button>
         <i class="fa-solid fa-circle-user text-3xl cursor-pointer"></i>
       </div>
+      <button id="menubtn" class="px-3 cursor-pointer lg:hidden">
+        <i class="fa-solid fa-lg fa-bars"></i>
+      </button>
     </nav>
     <section id="hero-section"
       class="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#f8f9ff] py-12 lg:py-24 md:px-6 px-3">
@@ -105,7 +108,7 @@
           <p class="text-sm font-semibold text-[#0B1C30] cursor-pointer">Learn more <i
               class="fa-solid fa-arrow-right fa-xs"></i> </p>
         </div>
-        <div class="bg-white p-8 flex flex-col gap-4 ">
+        <div class="bg-white p-8 flex flex-col gap-4 my-4 md:my-0">
           <div class="bg-[#f8f9ff] p-4 w-max rounded-lg"><i class="fa-solid fa-palette fa-xl"></i></div>
           <h3 class="font-bold text-2xl">UI/UX Design</h3>
           <p class="text-sm text-[#45464d]">We design beautiful and intuitive
@@ -181,6 +184,41 @@
       </div>
     </section>
   </main>
+  <footer class=" max-w-7xl mx-auto px-3 py-28 flex flex-wrap justify-between gap-6 bg-[#EFF4FF]">
+    <div class="md:max-w-xs">
+      <div class="flex items-center justify-between gap-3 cursor-pointer w-max">
+        <img src="./assets/Nexora Logo.png" alt="logo" />
+        <h2 class="font-bold text-xl text-[#0B1C30]">Nexora</h2>
+      </div>
+      <p class="text-[#45464d] text-sm mt-4">Crafting high-end digital
+        experiences with precision and
+        architectural balance.</p>
+    </div>
+    <div>
+      <h3 class="text-[#0B1C30] font-semibold mb-4">AGENCY</h3>
+      <ul class="space-y-4 text-[#45464d]">
+        <li>Portfolio</li>
+        <li>Process</li>
+        <li>Clients</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-[#0B1C30] font-semibold mb-4">CONNECT</h3>
+      <ul class="space-y-4 text-[#45464d]">
+        <li>LinkedIn</li>
+        <li>Instagram</li>
+        <li>Dribbble</li>
+      </ul>
+    </div>
+    <div class="space-y-4 text-[#45464d]">
+      <h3 class="text-[#0B1C30] font-semibold">SOCIAL</h3>
+      <div>
+        <i class="fa-solid fa-earth-americas"></i>
+        <i class="fa-brands fa-threads"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+    </div>
+  </footer>
   <script src="./script.js"></script>
 </body>
 

@@ -10,7 +10,16 @@ nav ul li{
   color: #45464D;
 }
 
+nav ul li:hover {
+  color: black;
+}
+
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+.h1,h2 {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 700;
 }
