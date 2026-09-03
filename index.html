@@ -44,7 +44,59 @@
       <button id="menubtn" class="px-3 cursor-pointer lg:hidden">
         <i class="fa-solid fa-lg fa-bars"></i>
       </button>
-      
+      <!-- Mobile Menu -->
+<div
+  id="mobileMenu"
+  class="fixed top-0 right-0 z-50 h-screen w-72 bg-white shadow-xl
+         translate-x-full transition-transform duration-300 ease-in-out lg:hidden"
+>
+  <div class="flex items-center justify-between px-5 py-6 border-b">
+    
+
+    <button id="closeMenu" class="cursor-pointer text-xl">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <ul class="flex flex-col gap-6 px-5 py-8">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+
+    <li>
+      <a href="#services">Services</a>
+    </li>
+
+    <li>
+      <a href="#work">Work</a>
+    </li>
+
+    <li>
+      <a href="#about">About</a>
+    </li>
+
+    <li>
+      <a href="#pricing">Pricing</a>
+    </li>
+
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <div class="border-t px-5 py-6 flex flex-col gap-4">
+    <button
+      class="bg-black text-white py-3 px-6 rounded-xl text-sm font-semibold cursor-pointer"
+    >
+      Get Started
+    </button>
+
+    <button class="flex items-center gap-3 cursor-pointer">
+      <i class="fa-solid fa-circle-user text-2xl"></i>
+      <span>Profile</span>
+    </button>
+  </div>
+</div>
     </nav>
     <section id="hero-section"
       class="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#f8f9ff] py-12 lg:py-24 md:px-6 px-3">
